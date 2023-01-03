@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("temisolovn/init1")
+        app = docker.build("temisolovn/init-1")
     }
 
     stage('Test image') {
